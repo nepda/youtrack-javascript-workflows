@@ -1,1 +1,1 @@
-# youtrack-javascript-workflows
+# YouTrack JavaScript Workflows

@@ -15,5 +15,10 @@ exports.rule = entities.Issue.onChange({
                 fs['Timer time'] = new Date().getTime();
             }
         }
+    },
+    requirements: {
+        'Timer time': {
+            type: entities.Field.dateType
+        }
     }
 });
