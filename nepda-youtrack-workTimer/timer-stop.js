@@ -11,6 +11,10 @@ exports.rule = entities.Issue.onChange({
             return;
         }
 
+        if (!f.oldValue('State')) {
+            return;
+        }
+
         if (f.oldValue('State').presentation != 'In Progress') {
             return;
         }
